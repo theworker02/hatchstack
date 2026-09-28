@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/hatchstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hatch validation gates for stack inputs before they hit prod.",
+  "bin": {
+    "hatchstack": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/hatchstack.git"
+  },
+  "homepage": "https://theworker02.github.io/hatchstack/",
+  "keywords": [
+    "hatch",
+    "stack",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
